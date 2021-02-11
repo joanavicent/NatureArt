@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature Art for kids</title>
+    <style>
+        .content {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 30px;
+        }
+        .built {
+            text-align: center;
+            font-size: 20px;
+            font-weight: bolder;
+            color:#6F5A50;
+            font-size: 18px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        h1 {
+            text-align: center;
+            color:#6F5A50;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            padding: 5px 10px 5px 10px;
+            border: 5px solid whitesmoke;
+            border-radius: 15px; 
+        }
+        h2 {
+            text-align: center;
+            color:#6F5A50;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            padding: 5px 10px 5px 10px;
+            font-weight: lighter;
+            line-height: 1.5;
+        }
+        img {
+            display:block;
+            margin:0 auto;
+            max-width: 100%;
+            border-radius: 20px;
+            width: 500px;
+            border: 2.5px solid #D8B59F;
+            padding: 5px;
+            background:#D8B59F;
+            box-shadow:5px 5px 5px #6A5449;
+        }
+        p{
+            line-height: 1.5;
+            font-size: 18px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            text-align: center;
+            color:#6F5A50;   
+        }
+        button{
+            display:block;
+            margin: 20px auto;
+            background-color: #B45E6B;
+            color:cornsilk;
+            font-size: 20px;
+            padding: 15px 20px;
+            border: 2px solid#B45E6B;
+            border-radius: 10px;
+            transition: all 200ms ease;  
+            box-shadow:10px 10px 10px rgba(0, 0, 0, 0.3);  
+        }
+        button:hover {
+            background: whitesmoke;
+            color: #B45E6B;
+            cursor: pointer;
+            border: 2px solid #B45E6B;
+            opacity: 0.9;
+        }
+        body {
+            background:linear-gradient(#CEB09F, #e2cfc3);
+        }
+        a {
+            display: block;
+            margin-top: 10px;
+            text-decoration: none;
+            text-align: center;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color:#6F5A50;
+            font-size: 18px;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class= "content">
+    <h1>
+        Nature Art for kids 
+    </h1>
+    <h2>
+        Art crafts with nature elements <br /> that will encourage kids to explore mother nature 
+    </h2>
+<br />
+<img src = "https://www.muchmorewithless.co.uk/wp-content/uploads/2020/09/Create-Your-Own-Calm-nature-window-2.jpg">
+<br />
+<p> 
+    Life in urban centers has taken away childhood freedom, experiences and learnings that are essential to us.
+</p>  
+<p>
+    As technology evolves, children seem to have more and more reasons to stay at home. However, we must create a balance and
+    try to invest our time in a childhood with more contact with nature, in order to provide children more outdoor play and
+    sensorial experiences.
+</p>
+<p>
+    With free materials that nature can provide us, it is possible to create authentic pieces of art, and simultaneously help
+    children to evolve their respect for nature, their imagination, among many other aspects.
+</p>
+<p>    
+Check below some suggestions of <span style="color:white"> easy crafts </span> you can do with your kid!
+</p>
+<br />
+<img src = "https://www.criandocomapego.com/wp-content/uploads/2020/08/alinhavo-com-flores-e-folhas-07-1024x768-1.jpg">
+<br />
+<p>
+With some branches, leaves, woolen and paint remnants, it is possible to create a beautiful frame. <br /> It just requires some
+imagination and has a fantastic result: an unique piece of art whose artist is your child!
+</p>
+<br />
+<img src = "https://i.pinimg.com/originals/ae/7a/4f/ae7a4f0f7154127b4406f9bd9828576c.jpg">
+<br />
+<p>
+Tell your kids to choose some colors they like and then to paint directly on the leaves. 
+<br /> 
+Transfer the painting to a white sheet: they have now a brand new picture, that was painted and printed by them!
+</p>
+<p>
+    <strong>Enjoy nature, create and have fun!</strong>
+</p>
+<hr />
+   <a href="https://www.artycraftykids.com/" target="_blank">
+    <em>Learn more!</em>
+     </a> 
+<button>
+    💡 More ideas?
+</button>
+<p>
+    <div class="built">
+    This page was built by Joana Vicente 
+    </div>
+</p>
+<script>
+    function contactUs (){
+        let name = prompt ("What is your name?");
+        let email = prompt ("What is your email adress?");
+        let age = prompt ("How old are you?");
+        if (age >=18) {
+            alert ("Thank you, " + name + "! We will send more ideas to " + email +" 😃");
+        } else {
+            alert ("🙁 Sorry " + name + ", we can't reach out to you! Ask your parents or your teacher to visit our page!");
+        } 
+    }
+    let contactButton = document.querySelector ("button");
+    contactButton.addEventListener ("click", contactUs);
+</script>
+</div>
+</body>
+</html>
